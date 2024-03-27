@@ -15,12 +15,12 @@ const mode = useColorMode()
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
+    <img alt="Vue" class="logo pt-4" src="@/assets/logo.svg" width="125" height="125" />
       <nav class="my-4">
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-        <RouterLink to="/test">Test-Page</RouterLink>
-        <RouterLink to="/shop">Shop-Page</RouterLink>
+        <RouterLink class="text-xs sm:text-xl md:text-lg lg:text-xl xl:text-2xl" to="/">Home</RouterLink>
+        <RouterLink class="text-xs sm:text-xl md:text-lg lg:text-xl xl:text-2xl" to="/about">About</RouterLink>
+        <RouterLink class="text-xs sm:text-xl md:text-lg lg:text-xl xl:text-2xl" to="/test">Test-Page</RouterLink>
+        <RouterLink class="text-xs sm:text-xl md:text-lg lg:text-xl xl:text-2xl" to="/shop">Shop-Page</RouterLink>
         <div class="darkMode flex flex-wrap justify-center mt-5 md:justify-start">
           <DropdownMenu>
             <DropdownMenuTrigger as-child>

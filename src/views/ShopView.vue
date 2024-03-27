@@ -19,23 +19,24 @@ const goal = ref(350)
 type Data = typeof data[number]
 const data = [
   { goal: 400 },
+  { goal: 350 },
   { goal: 300 },
+  { goal: 250 },
   { goal: 200 },
-  { goal: 300 },
-  { goal: 200 },
-  { goal: 278 },
-  { goal: 189 },
-  { goal: 239 },
-  { goal: 300 },
-  { goal: 200 },
-  { goal: 278 },
-  { goal: 189 },
-  { goal: 349 },
+  { goal: 150 },
+  { goal: 125 },
+  { goal: 100 },
+  { goal: 80 },
+  { goal: 60 },
+  { goal: 40 },
+  { goal: 20 },
+  { goal: 10   },
 ]
+
 </script>
 
 <template>
-  <div class="container mx-auto">
+  <div class="container mx-auto px-2">
     <div class="md:flex md:justify-between md:items-center md:mb-8">
       <Drawer>
     <DrawerTrigger as-child>

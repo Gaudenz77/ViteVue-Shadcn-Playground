@@ -87,3 +87,11 @@
 .dark .bgTest {
   background-color:#035a5a;
 }
+
+/* .dark .pinText {
+  color:#ebebeb ;
+} */
+
+.dark .pinText {
+  color:#333;
+}
