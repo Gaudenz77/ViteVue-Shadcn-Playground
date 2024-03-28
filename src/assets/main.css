@@ -95,3 +95,14 @@
 .dark .pinText {
   color:#333;
 }
+
+.tableTitle {
+  font-size:1rem;
+  font-weight:bold;
+}
+
+/* @media (max-width: 640px) {
+.dateSpan {
+  font-size:0.5rem;
+}
+} */
